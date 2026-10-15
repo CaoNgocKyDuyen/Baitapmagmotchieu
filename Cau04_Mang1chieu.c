@@ -5,7 +5,7 @@
 int main() 
 {
     int a[100], n, i;
-    int xenKe = 1;
+    int xenke = 1;
     printf("Nhap so phan tu n: ");
     scanf("%d", &n);
     for (i = 0; i < n; i++) 
@@ -17,11 +17,11 @@ int main()
 	{
         if ((a[i] % 2 == 0) == (a[i - 1] % 2 == 0)) 
 		{
-            xenKe = 0;
+            xenke = 0;
             break;
         }
     }
-    if (xenKe == 1)
+    if (xenke == 1)
         printf("Mang co xen ke chan le");
     else
         printf("Mang khong xen ke chan le");
